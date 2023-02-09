@@ -1,0 +1,24 @@
+.cart{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 1px solid rgb(218, 216, 216);
+    box-shadow: 2px 3px 3px 3px rgb(218, 216, 216);
+    align-items: center;
+    padding:1em;
+    margin: 1em;
+}
+.cart-btn{
+    padding: 1em 1em;
+   border: 1px solid rgb(200, 196, 196);
+   box-shadow: 1px 3px 3px 3px rgb(218, 216, 216);
+}
+.cart-btn:hover{
+    padding: 1em 3em;
+   }
+
+@media screen and (max-width:800px){
+    .cart{
+        grid-template-columns: 1fr;
+    }
+}
+
